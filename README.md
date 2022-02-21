@@ -1,15 +1,21 @@
-# ds-projects-ML
-Machine learning project of the neue fische bootcamp
+# Machine Learning Project
+Machine learning project performed during the neue fische Data Science Bootcamp. The time window was three workdays.
+- The notebook containing the EDA and the error analysis can be found [here](EDA-and-error-analysis.ipynb).
+- The modelling takes place in [this notebook](modelling-XGB.ipynb).
+- Scripts to load and preprocess the data are collected [here](prepare-flight-data.py).
+- Scripts and custom transformer to create features can be found [here](feature_engineering.py).
 
-The project will take place 2022/02/17 - 2022/02/21
+## Dataset
+The project is using [Flight data from zindi challenge](https://zindi.africa/competitions/ai-tunisia-hack-5-predictive-analytics-challenge-2/data) and [geographical airports data](https://pypi.org/project/airportsdata/). Download the data to the data folder.
 
-## 
-
-## Data
-[Flight data from zindi challenge](https://zindi.africa/competitions/ai-tunisia-hack-5-predictive-analytics-challenge-2/data)
-[Geographical airports data](https://pypi.org/project/airportsdata/)
-
-## 
-EDA and error analysis
-
-Modelling
+## Requirements
+- pyenv
+- python==3.9.4
+## Setup
+Use the `makefile`to install the requirements.
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
