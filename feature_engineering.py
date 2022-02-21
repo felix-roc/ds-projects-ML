@@ -95,7 +95,7 @@ class flight_preprocessor(BaseEstimator, TransformerMixin):
     """preprocessor to be used with sklearn pipelines in order to
     check relevance of features using GridSearchCV
     """
-    def __init__(self, features_enable=[1, 1, 1, 1, 1, 1, 1]):
+    def __init__(self, features_enable=[1, 1, 1, 1, 1, 1, 1, 1]):
         self.features_enable = features_enable
 
     def fit(self, X, y = None):
