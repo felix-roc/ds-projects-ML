@@ -2,7 +2,7 @@
 Machine learning project performed during the neue fische Data Science Bootcamp. The time window was three workdays.
 - The notebook containing the EDA and the error analysis can be found [here](EDA-and-error-analysis.ipynb).
 - The modelling takes place in [this notebook](modelingXGB.ipynb).
-- Scripts to load and preprocess the data are collected [here](prepare-flight-data.py).
+- Scripts to load and preprocess the data are collected [here](prepare_flight_data.py).
 - Scripts and custom transformer to create features can be found [here](feature_engineering.py).
 - 
 ## Dataset
