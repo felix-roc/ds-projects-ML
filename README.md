@@ -12,10 +12,4 @@ The project is using [Flight data from zindi challenge](https://zindi.africa/com
 - pyenv
 - python==3.9.4
 ## Setup
-Use the `makefile`to install the requirements.
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+Use the `makefile` to install the requirements.
